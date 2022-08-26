@@ -13,12 +13,16 @@
   --aczent-font-active: #188ce8;
 }
 
-h1,h2,h3,p {
+h1,
+h2,
+h3,
+p {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-ol,ul {
+ol,
+ul {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
@@ -60,7 +64,6 @@ body {
   border: 1px solid var(--line-color-light4);
   padding-top: 32px;
   padding-bottom: 32px;
-  
 }
 
 .page-header-container {
@@ -80,7 +83,6 @@ body {
 .menu {
   display: flex;
   column-gap: 50px;
-
 }
 
 .menu-contact {
@@ -132,7 +134,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color-dark);
-  
 }
 
 .contact-email:hover,
@@ -161,7 +162,9 @@ body {
 .section-title {
   padding-top: 200px;
   padding-bottom: 200px;
-  background: var(--section-color-dark);
+  background-color: var(--section-color-dark);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img-bg.jpg");
+  background-size: cover;
 }
 
 .container-title {
@@ -290,7 +293,7 @@ body {
   font-weight: 700;
   font-style: normal;
   font-size: 18px;
-  line-height: 2.0;
+  line-height: 2;
   text-align: center;
   color: var(--primary-text-color-dark);
   margin-bottom: 10px;
@@ -315,7 +318,6 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
 
 /*==========main==========*/
 
@@ -437,7 +439,8 @@ body {
 .modal-open-btn-portfolio:hover,
 .modal-open-btn-portfolio:focus {
   background: var(--aczent-font);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .modal-open-btn-portfolio:hover,
@@ -459,7 +462,7 @@ body {
   font-weight: 700;
   font-style: normal;
   font-size: 18px;
-  line-height: 2.0;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color-dark);
   margin-bottom: 4px;
@@ -488,7 +491,7 @@ body {
 .description {
   border-left: 1px solid var(--section-color-light3);
   border-right: 1px solid var(--section-color-light3);
-  border-bottom: 1px solid var(--section-color-light3);;
+  border-bottom: 1px solid var(--section-color-light3);
   background-color: var(--primary-text-color-light);
   padding: 20px 24px;
 }
