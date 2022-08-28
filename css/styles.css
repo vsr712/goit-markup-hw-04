@@ -695,18 +695,14 @@ body {
   padding: 20px 24px;
 }
 
-.images:hover,
-.images:focus {
+.images-link:hover,
+.images-link:focus {
+  display: block;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
   0px 4px 4px rgba(0, 0, 0, 0.06),
   1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.images-portfolio-item:hover,
-.images-portfolio-item:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-  0px 4px 4px rgba(0, 0, 0, 0.06),
-  1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+
 
 /*==========/main-portfolio==========*/
