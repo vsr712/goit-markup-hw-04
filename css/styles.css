@@ -600,6 +600,9 @@ body {
 .section-portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text-visually-hidden {
