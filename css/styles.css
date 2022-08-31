@@ -61,8 +61,6 @@ body {
 /*==========header==========*/
 
 .page-header {
-  width: 1600px;
-  height: 80px;
   color: var(--primary-text-color-light);
   border-bottom: 1px solid var(--line-color-light4);
   padding-top: 32px;
